@@ -1,0 +1,14 @@
+[
+
+     
+   {
+    "file": "farmcrops:recipes/simmering/stuffedpepper.json",
+    op: "addmerge", 
+    path: "/0/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+ },
+ 
+
+]

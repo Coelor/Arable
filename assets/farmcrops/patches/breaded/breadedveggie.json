@@ -1,0 +1,298 @@
+﻿[
+ {
+   file: "farmcrops:itemtypes/food/mixing/breadedveggie.json",
+    op: "addmerge", 
+    path: "/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+ },
+
+ {
+   "file": "farmcrops:itemtypes/food/mixing/breadedveggie.json",
+   op: "addmerge", 
+   path: "/skipVariants",
+   value: [ "breadedveggie-birch-*", "breadedveggie-pine-*", "breadedveggie-maple-*"],
+   side: "server",
+   dependsOn: [{ "modid": "ancienttools", "invert": true }]
+},
+
+
+
+ {
+   "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/0/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/1/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/2/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/3/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+
+ {
+   "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/4/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/5/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/6/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/7/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+
+
+ {
+   "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/8/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/9/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/10/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/11/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+
+
+ {
+   "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/12/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/13/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/14/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggie.json",
+    op: "addmerge", 
+    path: "/15/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+
+
+
+
+
+
+ {
+   "file": "farmcrops:recipes/kneading/breaded/breadedveggieoiled.json",
+    op: "addmerge", 
+    path: "/0/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggieoiled.json",
+    op: "addmerge", 
+    path: "/1/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggieoiled.json",
+    op: "addmerge", 
+    path: "/2/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggieoiled.json",
+    op: "addmerge", 
+    path: "/3/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+
+
+ {
+   "file": "farmcrops:recipes/kneading/breaded/breadedveggiesyrup.json",
+    op: "addmerge", 
+    path: "/0/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggiesyrup.json",
+    op: "addmerge", 
+    path: "/1/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggiesyrup.json",
+    op: "addmerge", 
+    path: "/2/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggiesyrup.json",
+    op: "addmerge", 
+    path: "/3/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+
+ {
+   "file": "farmcrops:recipes/kneading/breaded/breadedveggiesyrup.json",
+    op: "addmerge", 
+    path: "/4/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggiesyrup.json",
+    op: "addmerge", 
+    path: "/5/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggiesyrup.json",
+    op: "addmerge", 
+    path: "/6/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedveggiesyrup.json",
+    op: "addmerge", 
+    path: "/7/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+
+
+ {
+   "file": "farmcrops:recipes/kneading/breaded/breadedveggiesyrup.json",
+    op: "addmerge", 
+    path: "/8/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+
+ {
+   "file": "farmcrops:recipes/kneading/breaded/breadedveggiesyrup.json",
+   op: "addmerge", 
+   path: "/9/enabled", 
+   value: "false",
+   "side": "server",
+   dependsOn: [{ "modid": "acorn", "invert": true }]
+},
+{
+   "file": "farmcrops:recipes/kneading/breaded/breadedveggiesyrup.json",
+   op: "addmerge", 
+   path: "/10/enabled", 
+   value: "false",
+   "side": "server",
+   dependsOn: [{ "modid": "acorn", "invert": true }]
+},
+
+
+{
+  "file": "farmcrops:recipes/kneading/breaded/breadedveggiesyrup.json",
+   op: "addmerge", 
+   path: "/11/enabled", 
+   value: "false",
+   "side": "server",
+   dependsOn: [{ "modid": "acorn", "invert": true }]
+}
+ 
+]

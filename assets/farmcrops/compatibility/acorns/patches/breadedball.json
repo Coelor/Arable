@@ -1,0 +1,12 @@
+[
+
+     {
+        "file": "farmcrops:itemtypes/food/mixing/breadedball.json",
+        "op": "addmerge", 
+        "path": "/attributes/expandedNutritionProps/acorns:flour-acorn",
+        "value": {"saturation": 150, "foodcategory": "Grain"},
+        "side": "server",
+        "dependsOn": [{ "modid": "acorns"}, { "modid": "expandedfoods" }]
+     },
+    
+]

@@ -1,0 +1,44 @@
+[
+
+   
+      {
+      "op": "addmerge",
+      "path": "/ingredients/8/validStacks/-",
+      "value": {"type": "item","code": "farmcrops:foodoilportion-*",
+            "shapeElement": "bowl/topping/*","textureMapping": [ "topping", "foodoil"]
+      },
+      "side": "server",
+      "dependsOn": [{ "modid": "expandedfoods" }],
+      "file": "game:recipes/cooking/meatystew.json"
+      },
+
+
+
+      {
+        "op": "addmerge",
+        "path": "/ingredients/4/validStacks/-",
+        "value": {"type": "item","code": "farmcrops:foodoilportion-*",
+              "shapeElement": "bowl/topping/*","textureMapping": [ "topping", "foodoil"]
+        },
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "file": "game:recipes/cooking/vegetablestew.json"
+      },
+
+
+      {
+        "op": "addmerge",
+        "path": "/ingredients/6/validStacks/-",
+        "value": {"type": "item","code": "farmcrops:foodoilportion-*",
+              "shapeElement": "bowl/topping/*","textureMapping": [ "topping", "foodoil"]
+        },
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "file": "game:recipes/cooking/porridge.json"
+      },
+
+
+
+    
+
+]   

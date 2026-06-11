@@ -1,0 +1,22 @@
+
+[
+
+      {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps/farmcrops:syrup-*",
+        "value": { "saturation": 12, "health": 0.1, "foodcategory": "Fruit" },
+        "file": "expandedfoods:itemtypes/food/mixing/sushi.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+      
+      {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps/farmcrops:syrup-*",
+        "value": { "saturation": 6.4, "health": 0.1, "foodcategory": "Fruit" },
+        "file": "expandedfoods:itemtypes/food/mixing/sushi.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      }
+
+     ]

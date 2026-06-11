@@ -1,0 +1,40 @@
+[
+
+    {
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["sugarcane", "sugarbeet"],
+        "file": "expandedfoods:itemtypes/liquid/yogurt.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+    
+    {
+        "op": "addmerge", 
+        "path": "/0/ingredients/0/inputs/-",  
+        "value": { "type": "item", "code": "farmcrops:syrup-*", "quantity": 10 , "name": "Fruit"},
+        "side": "server",
+        "file": "expandedfoods:recipes/kneading/yogurtfruit.json",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+      {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/farmcrops:sugar*",
+        "value": {"farmcrops:syrup-*" : { "saturation": 12, "health": 0.1, "foodcategory": "Fruit" }},
+        "file": "expandedfoods:itemtypes/liquid/yogurt.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+      {
+        "op": "addmerge",
+        "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitreByType/sugar*",
+        "value":  { saturation: 350, "health": 11, foodcategory: "Dairy" },
+        "file": "expandedfoods:itemtypes/liquid/yogurt.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+     
+
+
+]

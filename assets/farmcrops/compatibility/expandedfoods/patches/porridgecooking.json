@@ -1,0 +1,175 @@
+[
+  {
+    "op": "addeach",
+	"path": "/ingredients/0/validStacks/-",
+	"value": [
+        {
+          "type": "item",
+          "code": "farmcrops:grain-*",
+          "shapeElement": "bowl/grain/*"
+        }
+      ],
+    "side": "server",
+    "file": "game:recipes/cooking/porridge.json",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {"type": "item","code": "farmcrops:sugar",
+          "shapeElement": "bowl/topping/*","textureMapping": [ "topping", "whitecurrantsyrup"]
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "file": "game:recipes/cooking/porridge.json"
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {"type": "item","code": "farmcrops:syrup-*",
+          "shapeElement": "bowl/topping/*","textureMapping": [ "topping", "sugarcanesyrup"]
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "file": "game:recipes/cooking/porridge.json"
+  },
+
+  
+
+
+  {
+    "op": "addeach",
+	"path": "/ingredients/1/validStacks/-",
+	"value": [
+        {
+          "type": "block",
+          "code": "farmcrops:sugarcane",
+          "shapeElement": "bowl/fruit 1/*"
+        },
+        {
+          "type": "item",
+          "code": "farmcrops:resourcecrop-sugarbeet",
+          "shapeElement": "bowl/fruit 1/*"
+        }
+      ],
+    "side": "server",
+    "file": "game:recipes/cooking/porridge.json",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+
+  {
+    "op": "addeach",
+	"path": "/ingredients/2/validStacks/-",
+	"value": [
+      {
+        "type": "block",
+        "code": "farmcrops:sugarcane",
+        "shapeElement": "bowl/fruit 2/*"
+      },
+      {
+        "type": "item",
+        "code": "farmcrops:resourcecrop-sugarbeet",
+        "shapeElement": "bowl/fruit 2/*"
+      }
+      ],
+    "side": "server",
+    "file": "game:recipes/cooking/porridge.json",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+  
+  {
+    "op": "addeach",
+	"path": "/ingredients/3/validStacks/-",
+	"value": [
+        { "type": "item", "code": "farmcrops:vegetable-beet",  "shapeElement": "bowl/vegetable 1/*" },
+        { "type": "item", "code": "farmcrops:vegetable-cauliflower",  "shapeElement": "bowl/vegetable 1/*" },
+        { "type": "item", "code": "farmcrops:vegetable-corn",  "shapeElement": "bowl/vegetable 1/*" },
+        { "type": "item", "code": "farmcrops:vegetable-eggplant",  "shapeElement": "bowl/vegetable 1/*" },
+        { "type": "item", "code": "farmcrops:vegetable-jalapeno",  "shapeElement": "bowl/vegetable 1/*" },
+        { "type": "item", "code": "farmcrops:vegetable-potato",  "shapeElement": "bowl/vegetable 1/*" },
+        { "type": "item", "code": "farmcrops:vegetable-yam",  "shapeElement": "bowl/vegetable 1/*" },
+
+
+        { "type": "item", "code": "farmcrops:pickledvegetable-pickledbeet",  "shapeElement": "bowl/vegetable 1/*" },
+        { "type": "item", "code": "farmcrops:pickledvegetable-pickledcauliflower",  "shapeElement": "bowl/vegetable 1/*" },
+        { "type": "item", "code": "farmcrops:pickledvegetable-pickledeggplant",  "shapeElement": "bowl/vegetable 1/*" },
+        { "type": "item", "code": "farmcrops:pickledvegetable-pickledjalapeno",  "shapeElement": "bowl/vegetable 1/*" },
+        { "type": "item", "code": "farmcrops:pickledvegetable-pickledpotato",  "shapeElement": "bowl/vegetable 1/*" },
+        { "type": "item", "code": "farmcrops:pickledvegetable-pickledyam",  "shapeElement": "bowl/vegetable 1/*" },
+
+
+
+
+        { "type": "item", "code": "farmcrops:choppedvegetable-beet",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "beet"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-pickledbeet",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "beet"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-cauliflower",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "cauliflower"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-pickledcauliflower",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "cauliflower"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-corn",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "corn"]},
+      
+        { "type": "item", "code": "farmcrops:choppedvegetable-eggplant",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group5"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-pickledeggplant",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group5"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-jalapeno",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "jalapeno"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-pickledjalapeno",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "jalapeno"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-potato",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group6"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-pickledpotato",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group6"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-yam",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group1"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-pickledyam",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group1"]}
+
+      ],
+    "side": "server",
+    "file": "game:recipes/cooking/porridge.json",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  
+
+
+  {
+    "op": "addeach",
+	  "path": "/ingredients/4/validStacks/-",
+	  "value": [
+        { "type": "item", "code": "farmcrops:vegetable-beet",  "shapeElement": "bowl/vegetable 2/*" },
+        { "type": "item", "code": "farmcrops:vegetable-cauliflower",  "shapeElement": "bowl/vegetable 2/*" },
+        { "type": "item", "code": "farmcrops:vegetable-corn",  "shapeElement": "bowl/vegetable 2/*" },
+        { "type": "item", "code": "farmcrops:vegetable-eggplant",  "shapeElement": "bowl/vegetable 2/*" },
+        { "type": "item", "code": "farmcrops:vegetable-jalapeno",  "shapeElement": "bowl/vegetable 2/*" },
+        { "type": "item", "code": "farmcrops:vegetable-potato",  "shapeElement": "bowl/vegetable 2/*" },
+        { "type": "item", "code": "farmcrops:vegetable-yam",  "shapeElement": "bowl/vegetable 2/*" },
+
+
+        { "type": "item", "code": "farmcrops:pickledvegetable-pickledbeet",  "shapeElement": "bowl/vegetable 2/*" },
+        { "type": "item", "code": "farmcrops:pickledvegetable-pickledcauliflower",  "shapeElement": "bowl/vegetable 2/*" },
+        { "type": "item", "code": "farmcrops:pickledvegetable-pickledeggplant",  "shapeElement": "bowl/vegetable 2/*" },
+        { "type": "item", "code": "farmcrops:pickledvegetable-pickledjalapeno",  "shapeElement": "bowl/vegetable 2/*" },
+        { "type": "item", "code": "farmcrops:pickledvegetable-pickledpotato",  "shapeElement": "bowl/vegetable 2/*" },
+        { "type": "item", "code": "farmcrops:pickledvegetable-pickledyam",  "shapeElement": "bowl/vegetable 2/*" },
+
+
+
+       
+        { "type": "item", "code": "farmcrops:choppedvegetable-beet",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "beet"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-pickledbeet",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "beet"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-cauliflower",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "cauliflower"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-pickledcauliflower",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "cauliflower"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-corn",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "corn"]},
+      
+        { "type": "item", "code": "farmcrops:choppedvegetable-eggplant",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "group5"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-pickledeggplant",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "group5"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-jalapeno",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "jalapeno"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-pickledjalapeno",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "jalapeno"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-potato",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "group6"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-pickledpotato",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "group6"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-yam",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "group1"]},
+        { "type": "item", "code": "farmcrops:choppedvegetable-pickledyam",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "group1"]}
+
+      ],
+    "side": "server",
+    "file": "game:recipes/cooking/porridge.json",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  }
+
+  
+]

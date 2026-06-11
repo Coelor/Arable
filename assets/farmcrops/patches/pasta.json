@@ -1,0 +1,106 @@
+[
+
+  
+  {
+    file: "expandedfoods:recipes/kneading/pasta.json",
+    op: "addmerge", 
+    path: "/0/ingredients/0/inputs/-", 
+    value: { type: "item", code: "farmcrops:flour-*", quantity: 1 },
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+
+
+
+
+  {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/*-dough",
+    "value":  {"farmcrops:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastaball.json", "name": "flour", "textureMap": { "pastaraw": "{flour}-raw" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/*-flat",
+    "value":  {"farmcrops:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pasta.json", "name": "flour", "textureMap": { "pastaraw": "{flour}-raw" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/*-cut",
+    "value":  {"farmcrops:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacut.json", "name": "flour", "textureMap": { "pastaraw": "{flour}-raw" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/*-cooked",
+    "value": {"farmcrops:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacooked.json", "name": "flour", "textureMap": { "pastaraw": "{flour}-perfect" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+			
+
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/*-dough/farmcrops:flour-corn",
+    "value": {"saturation": 155, "foodcategory": "Grain"},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/*-dough/farmcrops:flour-oat",
+    "value": {"saturation": 155, "foodcategory": "Grain"},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/textures",
+    "value": {"oatraw": {base: "farmcrops:item/food/dumpling/oat-raw" }},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures",
+    "value": {"oatpasta": {base: "farmcrops:item/food/dumpling/oat-partbaked" }},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/textures",
+    "value": {"cornraw": {base: "farmcrops:item/food/dumpling/corn-raw" }},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures",
+    "value": {"cornpasta": {base: "farmcrops:item/food/dumpling/corn-partbaked" }},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+
+
+
+
+]

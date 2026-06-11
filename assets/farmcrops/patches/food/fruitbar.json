@@ -1,0 +1,31 @@
+[
+
+
+    {
+        "op": "addmerge", 
+        "path": "/0/ingredients/3/inputs/-",  
+        "value": { "type": "item", "code": "farmcrops:syrup-*", "quantity": 10 },
+        "side": "server",
+        "file": "expandedfoods:recipes/kneading/fruitbar.json",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+      
+      {
+        "op": "addmerge", 
+        "path": "/1/ingredients/3/inputs/-",  
+        "value": { "type": "item", "code": "farmcrops:syrup-*", "quantity": 10 },
+        "side": "server",
+        "file": "expandedfoods:recipes/kneading/fruitbar.json",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+      {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/*/farmcrops:syrup-*",
+        "value": { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
+        "file": "expandedfoods:itemtypes/food/mixing/fruitbar.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+]

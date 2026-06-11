@@ -1,0 +1,18 @@
+{
+	"code": "sugar",
+	"maxstacksize": 64,
+	"attributes": {
+		"inContainerTexture": { "base": "farmcrops:block/barrel/sugar" },
+		"dissolveInWater": true
+	},
+	"nutritionProps": {
+		"satiety": 10,
+		"foodcategory": "Fruit"
+	},
+	"texture": { "base": "farmcrops:item/food/sugar" },
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ], "farmcrops": ["*"]
+	},
+	"materialDensity": 600
+}

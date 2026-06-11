@@ -1,0 +1,24 @@
+[
+
+    {
+        "op": "addeach",
+        "path": "/ingredients/0/validStacks/-",
+        "value": [
+            { "type": "item", "code": "farmcrops:syrup-*",  "shapeElement": "bowl/syrup/*", "textureMapping": ["syrup", "peachsyrup"] } 
+          ],
+        "file": "expandedfoods:recipes/cooking/compote.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "efmealsmodule" }]
+      },
+  
+      {
+        "op": "addeach",
+        "path": "/ingredients/4/validStacks/-",
+        "value": [
+            { "type": "item", "code": "farmcrops:syrup-*",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "peachsyrup"] }
+          ],
+        "file": "expandedfoods:recipes/cooking/compote.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "efmealsmodule" }]
+      }
+]

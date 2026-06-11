@@ -1,0 +1,98 @@
+﻿[
+   {
+     file: "farmcrops:itemtypes/food/mixing/breadedfishnugget.json",
+      op: "addmerge", 
+      path: "/enabled", 
+      value: "false",
+      "side": "server",
+      dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+   },
+   {
+      "file": "farmcrops:recipes/kneading/breaded/breadedfishnugget.json",
+      op: "addmerge", 
+      path: "/0/enabled", 
+      value: "false",
+      "side": "server",
+      dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+   },
+   {
+      "file": "farmcrops:recipes/kneading/breaded/breadedfishnugget.json",
+      op: "addmerge", 
+      path: "/1/enabled", 
+      value: "false",
+      "side": "server",
+      dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+   },
+   {
+      "file": "farmcrops:recipes/kneading/breaded/breadedfishnuggetoiled.json",
+      op: "addmerge", 
+      path: "/0/enabled", 
+      value: "false",
+      "side": "server",
+      dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+   },
+   {
+      "file": "farmcrops:recipes/kneading/breaded/breadedfishnuggetsyrup.json",
+      op: "addmerge", 
+      path: "/0/enabled", 
+      value: "false",
+      "side": "server",
+      dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+   },
+   {
+      "file": "farmcrops:recipes/kneading/breaded/breadedfishnuggetsyrup.json",
+      op: "addmerge", 
+      path: "/1/enabled", 
+      value: "false",
+      "side": "server",
+      dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+   },
+   {
+      "file": "farmcrops:recipes/kneading/breaded/breadedfishnuggetsyrup.json",
+      op: "addmerge", 
+      path: "/2/enabled", 
+      value: "false",
+      "side": "server",
+      dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+   },
+
+
+   {
+      "file": "farmcrops:recipes/simmering/breaded/breadedfishnugget.json",
+      op: "addmerge", 
+      path: "/0/enabled", 
+      value: "false",
+      "side": "server",
+      dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+   },
+   
+   {
+      "file": "farmcrops:recipes/simmering/breaded/breadedfishnugget.json",
+      op: "addmerge", 
+      path: "/1/enabled", 
+      value: "false",
+      "side": "server",
+      dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+   },
+   
+   {
+      "file": "farmcrops:recipes/simmering/breaded/breadedfishnugget.json",
+      op: "addmerge", 
+      path: "/2/enabled", 
+      value: "false",
+      "side": "server",
+      dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+   },
+   
+   {
+      "file": "farmcrops:recipes/simmering/breaded/breadedfishnugget.json",
+      op: "addmerge", 
+      path: "/3/enabled", 
+      value: "false",
+      "side": "server",
+      dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+   },
+   
+
+
+  ]

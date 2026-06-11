@@ -1,0 +1,957 @@
+[  
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-potato",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-potato" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-potato",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-potato" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-potato-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-potato-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-potato-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-potato-perfect" }
+},
+
+
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-yam",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-yam" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-yam",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-yam" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-yam-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-yam-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-yam-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-yam-perfect" }
+},
+
+
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-corn",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-corn" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-corn",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-corn" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-corn-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-corn-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-corn-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-corn-perfect" }
+},
+
+
+
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-cauliflower",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-cauliflower" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-cauliflower",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-cauliflower" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-cauliflower-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-cauliflower-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-cauliflower-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-cauliflower-perfect" }
+},
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-beet",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-beet" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-beet",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-beet" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-beet-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-beet-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-beet-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-beet-perfect" }
+},
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-eggplant",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-eggplant" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-eggplant",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-eggplant" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-eggplant-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-eggplant-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-eggplant-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-eggplant-perfect" }
+},
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-jalapeno",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-jalapeno" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:vegetable-jalapeno",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-jalapeno" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-jalapeno-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-jalapeno-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-jalapeno-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-jalapeno-perfect" }
+},
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:pickledvegetable-pickledpotato",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-pickledpotato" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:pickledvegetable-pickledpotato",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-pickledpotato" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-pickledpotato-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-pickledpotato-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-pickledpotato-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-pickledpotato-perfect" }
+},
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:pickledvegetable-pickledyam",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-pickledyam" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:pickledvegetable-pickledyam",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-pickledyam" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-pickledyam-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-pickledyam-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-pickledyam-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-pickledyam-perfect" }
+},
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:pickledvegetable-pickledcauliflower",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-pickledcauliflower" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:pickledvegetable-pickledcauliflower",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-pickledcauliflower" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-pickledcauliflower-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-pickledcauliflower-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-pickledcauliflower-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-pickledcauliflower-perfect" }
+},
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:pickledvegetable-pickledbeet",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-pickledbeet" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:pickledvegetable-pickledbeet",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-pickledbeet" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-pickledbeet-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-pickledbeet-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-pickledbeet-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-pickledbeet-perfect" }
+},
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:pickledvegetable-pickledeggplant",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-pickledeggplant" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:pickledvegetable-pickledeggplant",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-pickledeggplant" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-pickledeggplant-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-pickledeggplant-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-pickledeggplant-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-pickledeggplant-perfect" }
+},
+
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:pickledvegetable-pickledjalapeno",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-pickledjalapeno" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:pickledvegetable-pickledjalapeno",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:choppedvegetable-pickledjalapeno" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-pickledjalapeno-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-pickledjalapeno-perfect" }
+},
+{
+    "ingredientPattern": "K,V",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "farmcrops:cookedvegetable-pickledjalapeno-perfect",
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "farmcrops:cookedchoppedvegetable-pickledjalapeno-perfect" }
+},
+]

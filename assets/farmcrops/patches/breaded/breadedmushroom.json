@@ -1,0 +1,115 @@
+﻿[
+ {
+   file: "farmcrops:itemtypes/food/mixing/breadedmushroom.json",
+    op: "addmerge", 
+    path: "/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedmushroom.json",
+    op: "addmerge", 
+    path: "/0/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedmushroom.json",
+    op: "addmerge", 
+    path: "/1/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedmushroom.json",
+    op: "addmerge", 
+    path: "/2/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedmushroom.json",
+    op: "addmerge", 
+    path: "/3/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedmushroomoiled.json",
+    op: "addmerge", 
+    path: "/0/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedmushroomsyrup.json",
+    op: "addmerge", 
+    path: "/0/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedmushroomsyrup.json",
+    op: "addmerge", 
+    path: "/1/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+ },
+ {
+    "file": "farmcrops:recipes/kneading/breaded/breadedmushroomsyrup.json",
+    op: "addmerge", 
+    path: "/2/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+ },
+
+ {
+   "file": "farmcrops:recipes/simmering/breaded/breadedmushroom.json",
+   op: "addmerge", 
+   path: "/0/enabled", 
+   value: "false",
+   "side": "server",
+   dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+},
+
+{
+   "file": "farmcrops:recipes/simmering/breaded/breadedmushroom.json",
+   op: "addmerge", 
+   path: "/1/enabled", 
+   value: "false",
+   "side": "server",
+   dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+},
+
+{
+   "file": "farmcrops:recipes/simmering/breaded/breadedmushroom.json",
+   op: "addmerge", 
+   path: "/2/enabled", 
+   value: "false",
+   "side": "server",
+   dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+},
+
+{
+   "file": "farmcrops:recipes/simmering/breaded/breadedmushroom.json",
+   op: "addmerge", 
+   path: "/3/enabled", 
+   value: "false",
+   "side": "server",
+   dependsOn: [{ "modid": "expandedfoods", "invert": true }]
+},
+
+
+
+
+
+]

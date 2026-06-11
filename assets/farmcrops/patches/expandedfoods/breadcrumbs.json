@@ -1,0 +1,54 @@
+[
+
+  
+  {
+    "file": "farmcrops:itemtypes/food/breadcrumbs.json",
+     "op": "addmerge", 
+     "path": "/enabled", 
+     "value": "false",
+     "side": "server",
+     "dependsOn": [{ "modid": "expandedfoods", "invert": true }]
+  },
+
+
+  {
+    "file": "farmcrops:itemtypes/food/breadcrumbs.json",
+    "op": "addmerge", 
+    "path": "/enabled", 
+    "value": false,
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods", "invert": true }]
+  },
+  {
+    "file": "farmcrops:recipes/grid/breadcrumbs.json",
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": true,
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "file": "farmcrops:recipes/grid/breadcrumbs.json",
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": true,
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "file": "farmcrops:recipes/grid/breadcrumbs.json",
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": true,
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "file": "farmcrops:recipes/grid/breadcrumbfeed.json",
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": true,
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  }
+
+  
+
+
+]

@@ -1,0 +1,39 @@
+[
+
+
+    {
+        "op": "addmerge", 
+        "path": "/0/ingredients/0/inputs/-",  
+        "value": { "type": "item", "code": "farmcrops:syrup-*", "quantity": 10 },
+        "side": "server",
+        "file": "expandedfoods:recipes/kneading/gozinakisyrup.json",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+      {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionProps/farmcrops:syrup-*",
+        "value": { "saturation": 12, "health": 0.1, "foodcategory": "Fruit" },
+        "file": "expandedfoods:itemtypes/food/mixing/gozinaki.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+      {
+        "op": "addmerge",
+        "path": "/attributes/renderIngredientsByType/*-syrup",
+        "value":  {"farmcrops:syrup-*": { "shape": "expandedfoods:shapes/item/food/gozinaki/syrup.json", "name": "type", "textureMap": { "syrup": "fill-cane" } }},
+        "file": "expandedfoods:itemtypes/food/mixing/gozinaki.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+     
+      {
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {"fill-cane": { "base": "farmcrops:block/liquid/sugarcanesyrup" }},
+        "file": "expandedfoods:itemtypes/food/mixing/gozinaki.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+]

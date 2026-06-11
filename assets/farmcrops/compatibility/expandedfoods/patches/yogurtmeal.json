@@ -1,0 +1,68 @@
+[
+
+    {
+        "op": "addeach",
+        "path": "/ingredients/0/validStacks/-",
+        "value": [
+            {
+                type: "item",
+                code: "expandedfoods:yogurt-sugarcane",
+                shapeElement: "bowl/yogurt/*",
+                textureMapping: [ "topping", "sugarcanesyrup" ]
+            },
+            {
+                type: "item",
+                code: "expandedfoods:yogurt-sugarbeet",
+                shapeElement: "bowl/yogurt/*",
+                textureMapping: [ "topping", "sugarbeetsyrup" ]
+            },
+        ],
+        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+      {
+        "op": "addeach",
+        "path": "/ingredients/7/validStacks/-",
+        "value": [
+            {
+                type: "item",
+                code: "farmcrops:syrup-sugarcane",
+                shapeElement: "bowl/topping/*",
+                textureMapping: [ "topping", "sugarcanesyrup" ]
+            },
+            {
+                type: "item",
+                code: "farmcrops:syrup-sugarbeet",
+                shapeElement: "bowl/topping/*",
+                textureMapping: [ "topping", "sugarbeetsyrup" ]
+            },
+        ],
+        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+      {
+        "op": "addeach",
+        "path": "/ingredients/6/validStacks/-",
+        "value": [
+                { "type": "item", "code": "farmcrops:grain-oat",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pumpkinseed" ] },  
+                { "type": "item", "code": "farmcrops:cookedchoppedvegetable-corn-*",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "sugarhackberry" ] }, 
+        ],
+        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "side": "server",
+        dependsOn: [{ "modid": "expandedfoods" }]
+      },
+      {
+        "op": "addeach",
+        "path": "/ingredients/5/validStacks/-",
+        "value": [
+                { "type": "item", "code": "farmcrops:grain-oat",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pumpkinseed" ] },  
+                { "type": "item", "code": "farmcrops:cookedchoppedvegetable-corn-*",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "sugarhackberry" ] }, 
+        ],
+        "file": "expandedfoods:recipes/mixing/yogurtmeal.json",
+        "side": "server",
+        dependsOn: [{ "modid": "expandedfoods" }]
+      },
+]

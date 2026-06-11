@@ -1,0 +1,13 @@
+[{
+    "enabled": false,
+	ingredientPattern: "P",
+	ingredients: {
+		P: { type: "item", code: "farmcrops:breadcrumbs-*"}
+		},
+	width: 1,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "expandedfoods:breadcrumbfeed", quantity: 1  },
+	enabled: true
+}
+]

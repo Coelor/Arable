@@ -1,0 +1,108 @@
+[
+
+  
+  {
+    "op": "addeach",
+	"path": "/ingredients/0/validStacks/-",
+	"value": [
+        {
+          "type": "item",
+          "code": "farmcrops:vegetable-*",
+          "shapeElement": "game:bowl/vegetable 1/*"
+        },
+		{
+          "type": "item",
+          "code": "farmcrops:pickledvegetable-*",
+          "shapeElement": "game:bowl/vegetable 1/*"
+        },
+		{
+          "type": "item",
+          "code": "farmcrops:choppedvegetable-*",
+          "shapeElement": "game:bowl/vegetable 1/*"
+        }
+      ],
+    "side": "server",
+    "file": "recipes/cooking/vegetablestew.json"
+  }, 
+  {
+    "op": "addeach",
+	"path": "/ingredients/5/validStacks/-",
+	"value": [{
+          "type": "item",
+          "code": "farmcrops:breadcrumbs-*"
+        }
+      ],
+    "side": "server",
+    "file": "recipes/cooking/vegetablestew.json",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addeach",
+	"path": "/ingredients/1/validStacks/-",
+	"value": [
+        {
+          "type": "item",
+          "code": "farmcrops:vegetable-*",
+          "shapeElement": "game:bowl/vegetable 2/*"
+        },
+		{
+          "type": "item",
+          "code": "farmcrops:pickledvegetable-*",
+          "shapeElement": "game:bowl/vegetable 2/*"
+        },
+		{
+          "type": "item",
+          "code": "farmcrops:choppedvegetable-*",
+          "shapeElement": "game:bowl/vegetable 2/*"
+        }
+      ],
+    "side": "server",
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "addeach",
+	"path": "/ingredients/2/validStacks/-",
+	"value": [
+        {
+          "type": "item",
+          "code": "farmcrops:vegetable-*",
+          "shapeElement": "game:bowl/vegetable 3/*"
+        },
+		{
+          "type": "item",
+          "code": "farmcrops:pickledvegetable-*",
+          "shapeElement": "game:bowl/vegetable 3/*"
+        },
+		{
+          "type": "item",
+          "code": "farmcrops:choppedvegetable-*",
+          "shapeElement": "game:bowl/vegetable 3/*"
+        }
+      ],
+    "side": "server",
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "addeach",
+	"path": "/ingredients/3/validStacks/-",
+	"value": [
+        {
+          "type": "item",
+          "code": "farmcrops:vegetable-*",
+          "shapeElement": "game:bowl/vegetable 4/*"
+        },
+		{
+          "type": "item",
+          "code": "farmcrops:pickledvegetable-*",
+          "shapeElement": "game:bowl/vegetable 4/*"
+        },
+		{
+          "type": "item",
+          "code": "farmcrops:choppedvegetable-*",
+          "shapeElement": "game:bowl/vegetable 4/*"
+        }
+      ],
+    "side": "server",
+    "file": "recipes/cooking/vegetablestew.json"
+  }
+]

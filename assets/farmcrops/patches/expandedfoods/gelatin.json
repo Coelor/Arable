@@ -1,0 +1,406 @@
+[
+  {
+    "file": "farmcrops:recipes/simmering/gelatin.json",
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": "false",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods",
+        "invert": true
+      }
+    ]
+  },
+  {
+    "file": "farmcrops:recipes/simmering/gelatin.json",
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": "false",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods",
+        "invert": true
+      }
+    ]
+  },
+  {
+    "file": "farmcrops:recipes/simmering/gelatin.json",
+    "op": "addmerge",
+    "path": "/2/enabled",
+    "value": "false",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods",
+        "invert": true
+      }
+    ]
+  },
+  {
+    "file": "farmcrops:recipes/simmering/gelatin.json",
+    "op": "addmerge",
+    "path": "/3/enabled",
+    "value": "false",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods",
+        "invert": true
+      }
+    ]
+  },
+  {
+    "file": "farmcrops:recipes/simmering/gelatin.json",
+    "op": "addmerge",
+    "path": "/4/enabled",
+    "value": "false",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods",
+        "invert": true
+      }
+    ]
+  },
+  {
+    "file": "farmcrops:recipes/simmering/gelatin.json",
+    "op": "addmerge",
+    "path": "/5/enabled",
+    "value": "false",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods",
+        "invert": true
+      }
+    ]
+  },
+  {
+    "file": "farmcrops:recipes/simmering/gelatin.json",
+    "op": "addmerge",
+    "path": "/6/enabled",
+    "value": "false",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods",
+        "invert": true
+      }
+    ]
+  },
+  {
+    "op": "move",
+    "frompath": "/nutritionPropsByType/*",
+    "path": "/move-temp",
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/nutritionPropsByType",
+    "value": {
+      "@*-(beet|cauliflower|corn|eggplant|jalapeno|potato|yam)": {
+        "saturation": 200,
+        "health": 3,
+        "foodcategory": "Vegetable"
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "move",
+    "frompath": "/move-temp",
+    "path": "/nutritionPropsByType/*",
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/variantgroups/0/states/-",
+    "value": [
+      "beet",
+      "cauliflower",
+      "corn",
+      "eggplant",
+      "jalapeno",
+      "potato",
+      "yam"
+    ],
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "move",
+    "frompath": "/attributes/inPiePropertiesByType/*",
+    "path": "/move-temp",
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/inPiePropertiesByType/*-beet",
+    "value": {
+      "texture": "game:item/gelatin/purpleplum",
+      "partType": "Filling"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/inPiePropertiesByType/*-cauliflower",
+    "value": {
+      "texture": "game:item/gelatin/cocoa",
+      "partType": "Filling"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/inPiePropertiesByType/*-corn",
+    "value": {
+      "texture": "game:item/gelatin/spindle",
+      "partType": "Filling"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/inPiePropertiesByType/*-eggplant",
+    "value": {
+      "texture": "game:item/gelatin/flaxlily",
+      "partType": "Filling"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/inPiePropertiesByType/*-jalapeno",
+    "value": {
+      "texture": "game:item/gelatin/feijoa",
+      "partType": "Filling"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/inPiePropertiesByType/*-potato",
+    "value": {
+      "texture": "game:item/gelatin/coralbead",
+      "partType": "Filling"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/inPiePropertiesByType/*-yam",
+    "value": {
+      "texture": "game:item/gelatin/pandanbits",
+      "partType": "Filling"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "move",
+    "frompath": "/move-temp",
+    "path": "/attributes/inPiePropertiesByType/*",
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "move",
+    "frompath": "/texturebyType/*",
+    "path": "/move-temp",
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturebyType/*-beet",
+    "value": {
+      "base": "game:item/gelatin/purpleplum"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturebyType/*-cauliflower",
+    "value": {
+      "base": "game:item/gelatin/cocoa"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturebyType/*-corn",
+    "value": {
+      "base": "game:item/gelatin/spindle"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturebyType/*-eggplant",
+    "value": {
+      "base": "game:item/gelatin/flaxlily"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturebyType/*-jalapeno",
+    "value": {
+      "base": "game:item/gelatin/feijoa"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturebyType/*-potato",
+    "value": {
+      "base": "game:item/gelatin/coralbead"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturebyType/*-yam",
+    "value": {
+      "base": "game:item/gelatin/pandanbits"
+    },
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "move",
+    "frompath": "/move-temp",
+    "path": "/texturebyType/*",
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  }
+]

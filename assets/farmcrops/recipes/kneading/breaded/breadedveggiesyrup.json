@@ -1,0 +1,260 @@
+[
+ 
+	
+	{
+		ingredients: [
+			{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-birch-*-partbaked", name: "vegetable" }]}
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-birch-{vegetable}-syruppartbaked", stackSize: 1}
+	 },
+	 {
+		ingredients: [
+			{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-birch-*-cooked", name: "vegetable" }]}
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-birch-{vegetable}-syrup", stackSize: 1}
+	 },
+	 {
+		ingredients: [
+			{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-birch-*-charred", name: "vegetable" }]}
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-birch-{vegetable}-syrupcharred", stackSize: 1}
+	 },
+	
+	 
+	 {
+		ingredients: [
+			{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-pine-*-partbaked", name: "vegetable" }]}
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-pine-{vegetable}-syruppartbaked", stackSize: 1}
+	 },
+	 {
+		ingredients: [
+			{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-pine-*-cooked", name: "vegetable" }]}
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-pine-{vegetable}-syrup", stackSize: 1}
+	 },
+	 {
+		ingredients: [
+			{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-pine-*-charred", name: "vegetable" }]}
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-pine-{vegetable}-syrupcharred", stackSize: 1}
+	 },
+	
+	 
+	 {
+		ingredients: [
+			{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-maple-*-partbaked", name: "vegetable" }]}
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-maple-{vegetable}-syruppartbaked", stackSize: 1}
+	 },
+	 {
+		ingredients: [
+			{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-maple-*-cooked", name: "vegetable" }]}
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-maple-{vegetable}-syrup", stackSize: 1}
+	 },
+	 {
+		ingredients: [
+			{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-maple-*-charred", name: "vegetable" }]}
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-maple-{vegetable}-syrupcharred", stackSize: 1}
+	 },
+	 
+	 {
+		ingredients: [
+			{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-acorn-*-partbaked", name: "vegetable" }]}
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-acorn-{vegetable}-syruppartbaked", stackSize: 1}
+	 },
+	 {
+		ingredients: [
+			{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-acorn-*-cooked", name: "vegetable" }]}
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-acorn-{vegetable}-syrup", stackSize: 1}
+	 },
+	 {
+		ingredients: [
+			{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-acorn-*-charred", name: "vegetable" }]}
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-acorn-{vegetable}-syrupcharred", stackSize: 1}
+	 },
+
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-rye-*-partbaked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-rye-{vegetable}-syruppartbaked", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-rye-*-cooked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-rye-{vegetable}-syrup", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-rye-*-charred", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-rye-{vegetable}-syrupcharred", stackSize: 1}
+ },
+
+ 	
+ 
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-rice-*-partbaked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-rice-{vegetable}-syruppartbaked", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-rice-*-cooked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-rice-{vegetable}-syrup", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-rice-*-charred", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-rice-{vegetable}-syrupcharred", stackSize: 1}
+ },
+
+
+ 
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-flax-*-partbaked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-flax-{vegetable}-syruppartbaked", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-flax-*-cooked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-flax-{vegetable}-syrup", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-flax-*-charred", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-flax-{vegetable}-syrupcharred", stackSize: 1}
+ }
+,
+
+ 
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-spelt-*-partbaked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-spelt-{vegetable}-syruppartbaked", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-spelt-*-cooked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-spelt-{vegetable}-syrup", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-spelt-*-charred", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-spelt-{vegetable}-syrupcharred", stackSize: 1}
+ },
+ 	
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-cassava-*-partbaked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-cassava-{vegetable}-syruppartbaked", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-cassava-*-cooked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-cassava-{vegetable}-syrup", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-cassava-*-charred", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-cassava-{vegetable}-syrupcharred", stackSize: 1}
+ },
+
+
+ 	
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-amaranth-*-partbaked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-amaranth-{vegetable}-syruppartbaked", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-amaranth-*-cooked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-amaranth-{vegetable}-syrup", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-amaranth-*-charred", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-amaranth-{vegetable}-syrupcharred", stackSize: 1}
+ },
+
+
+ 
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-sunflower-*-partbaked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-sunflower-{vegetable}-syruppartbaked", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-sunflower-*-cooked", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-sunflower-{vegetable}-syrup", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{"type": "item","code": "farmcrops:syrup-*","quantity": 10 }, {"type": "item","code": "farmcrops:sugar","quantity": 1 },{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-sunflower-*-charred", name: "vegetable" }]}
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-sunflower-{vegetable}-syrupcharred", stackSize: 1}
+ }
+ 
+
+]
+

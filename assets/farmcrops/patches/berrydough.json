@@ -1,0 +1,260 @@
+[
+
+       
+  
+
+  {
+    file: "expandedfoods:recipes/kneading/berrydough.json",
+    op: "addmerge", 
+    path: "/0/ingredients/0/inputs/-", 
+    value: { type: "item", code: "farmcrops:dough-*", quantity: 1},
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    file: "expandedfoods:recipes/kneading/berrydough.json",
+    op: "addmerge", 
+    path: "/1/ingredients/0/inputs/-", 
+    value: { type: "item", code: "farmcrops:dough-*", quantity: 1},
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    file: "expandedfoods:recipes/kneading/berrydough.json",
+    op: "addmerge", 
+    path: "/2/ingredients/0/inputs/-", 
+    value: { type: "item", code: "farmcrops:dough-*", quantity: 1},
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    file: "expandedfoods:recipes/kneading/berrydough.json",
+    op: "addmerge", 
+    path: "/3/ingredients/0/inputs/-", 
+    value: { type: "item", code: "farmcrops:dough-*", quantity: 1},
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    file: "expandedfoods:recipes/kneading/berrydough.json",
+    op: "addmerge", 
+    path: "/4/ingredients/0/inputs/-", 
+    value: { type: "item", code: "farmcrops:dough-*", quantity: 1},
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionProps",
+    "value": {"farmcrops:flour-oat": {"saturation": 165, "foodcategory": "Grain"}},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionProps",
+    "value": {"farmcrops:flour-corn": {"saturation": 150, "foodcategory": "Grain"}},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionProps",
+    "value": {  "farmcrops:sugar" : { "saturation": 12, "health": 0.3, "foodcategory": "Fruit" }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionProps",
+    "value": {"farmcrops:syrup-*" : { "saturation": 12, "health": 0.1, "foodcategory": "Fruit" }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  
+
+    {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionProps",
+    "value": {"farmcrops:foodoilportion-*" : { "saturation": 6.4, "health": 0.1, "foodcategory": "Fruit" }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+  
+  {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/*-dough",
+    "value": {"farmcrops:flour-*" : { "shape": "expandedfoods:shapes/item/food/bread/berrybread/dough.json", "name": "flour", "textureMap": { "dough": "{flour}bread" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  
+   {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/@*-(syruppartbaked|partbaked)",
+    "value": {"farmcrops:flour-*" : { "shape": "expandedfoods:shapes/item/food/bread/berrybread/bread.json", "name": "flour", "textureMap": { "bread": "{flour}bread2" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/@*-(syrup|cooked)",
+    "value": {"farmcrops:flour-*" : { "shape": "expandedfoods:shapes/item/food/bread/berrybread/partbaked.json", "name": "flour", "textureMap": { "bread": "{flour}bread" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/@*-(syrupcharred|charred)",
+    "value": {"farmcrops:flour-*" : { "shape": "expandedfoods:shapes/item/food/bread/berrybread/bread.json", "name": "flour", "textureMap": { "bread": "{flour}bread1" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+  
+  {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/@*-(syruppartbaked|partbaked)",
+    "value": {"farmcrops:syrup-*" :{ "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/berrybread.json", "name": "syrup", "textureMap": { "syrup": "fill-{syrup}" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+ 
+  {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/@*-(syrup|cooked)",
+    "value": {"farmcrops:syrup-*" :{ "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/berrybread.json", "name": "syrup", "textureMap": { "syrup": "fill-{syrup}" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/@*-(syrupcharred|charred)",
+    "value": {"farmcrops:syrup-*" :{ "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/berrybread.json", "name": "syrup", "textureMap": { "syrup": "fill-{syrup}" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/@*-(syruppartbaked|partbaked)",
+    "value": {"farmcrops:sugar" :{ "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/berrybread.json", "textureMap": { "syrup": "fill-lychee" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+ 
+  {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/@*-(syrup|cooked)",
+    "value": {"farmcrops:sugar" :{ "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/berrybread.json", "textureMap": { "syrup": "fill-lychee" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/@*-(syrupcharred|charred)",
+    "value": {"farmcrops:sugar" :{ "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/berrybread.json", "textureMap": { "syrup": "fill-lychee" } }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+  
+
+  {
+    "op": "addmerge",
+    "path": "/textures",
+    "value": {"fill-beet": { base: "game:block/food/pie/fill-carrot" }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures",
+    "value": {"fill-cane": { base: "farmcrops:block/liquid/sugarcanesyrup" }},
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"cornbread": { base: "farmcrops:item/food/grain/cornbread-perfect" }},
+  "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"cornbread1": { base: "farmcrops:item/food/grain/cornbread-charred" }},
+  "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"cornbread2": { base: "farmcrops:item/food/grain/cornbread-partbaked" }},
+  "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"oatbread": { base: "farmcrops:item/food/grain/oatbread1" }},
+  "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"oatbread1": { base: "farmcrops:item/food/grain/oatbread2" }},
+  "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"oatbread2": { base: "farmcrops:item/food/grain/oatbread" }},
+  "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+  
+
+]

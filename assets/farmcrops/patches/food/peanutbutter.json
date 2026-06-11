@@ -1,0 +1,88 @@
+[
+
+
+    {
+        "op": "addmerge", 
+        "path": "/0/ingredients/1/inputs/-",  
+        "value": { "type": "item", "code": "farmcrops:foodoilportion-*", "quantity": 10 },
+        "side": "server",
+        "file": "expandedfoods:recipes/kneading/peanutbutter.json",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+      
+      {
+        "op": "addmerge", 
+        "path": "/1/ingredients/1/inputs/-",  
+        "value": { "type": "item", "code": "farmcrops:foodoilportion-*", "quantity": 10 },
+        "side": "server",
+        "file": "expandedfoods:recipes/kneading/peanutbutter.json",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+      {
+        "op": "addmerge", 
+        "path": "/2/ingredients/1/inputs/-",  
+        "value": { "type": "item", "code": "farmcrops:foodoilportion-*", "quantity": 10 },
+        "side": "server",
+        "file": "expandedfoods:recipes/kneading/peanutbutter.json",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+
+      {
+        "op": "addmerge", 
+        "path": "/3/ingredients/1/inputs/-",  
+        "value": { "type": "item", "code": "farmcrops:foodoilportion-*", "quantity": 10 },
+        "side": "server",
+        "file": "expandedfoods:recipes/kneading/peanutbutter.json",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+      {
+        "op": "addmerge", 
+        "path": "/1/ingredients/2/inputs/-",  
+        "value": { "type": "item", "code": "farmcrops:syrup-*", "quantity": 10 },
+        "side": "server",
+        "file": "expandedfoods:recipes/kneading/peanutbutter.json",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+      {
+        "op": "addmerge", 
+        "path": "/3/ingredients/2/inputs/-",  
+        "value": { "type": "item", "code": "farmcrops:syrup-*", "quantity": 10 },
+        "side": "server",
+        "file": "expandedfoods:recipes/kneading/peanutbutter.json",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+      {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/*-butter/farmcrops:foodoilportion-*",
+        "value": { "saturation": 4.5, "health": 0.1, "foodcategory": "Vegetable" },
+        "file": "expandedfoods:itemtypes/liquid/peanutliquid.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+      {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/*-sauce/farmcrops:syrup-*",
+        "value": { "saturation": 6, "health": 0.1, "foodcategory": "Fruit" },
+        "file": "expandedfoods:itemtypes/liquid/peanutliquid.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+      {
+        "op": "addmerge",
+        "path": "/attributes/expandedNutritionPropsByType/*-butter/farmcrops:syrup-*",
+        "value": { "saturation": 6, "health": 0.1, "foodcategory": "Fruit" },
+        "file": "expandedfoods:itemtypes/liquid/peanutliquid.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "expandedfoods" }]
+      },
+
+
+
+]

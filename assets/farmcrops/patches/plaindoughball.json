@@ -1,0 +1,144 @@
+[
+    
+  {
+    file: "expandedfoods:recipes/kneading/doughball.json",
+    op: "addmerge", 
+    path: "/0/ingredients/1/inputs/-", 
+    value: { type: "item", code: "farmcrops:flour-*", quantity: 1 },
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    file: "expandedfoods:recipes/kneading/doughball.json",
+    op: "addmerge", 
+    path: "/1/ingredients/1/inputs/-", 
+    value: { type: "item", code: "farmcrops:flour-*", quantity: 1 },
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    file: "expandedfoods:recipes/kneading/doughball.json",
+    op: "addmerge", 
+    path: "/2/ingredients/1/inputs/-", 
+    value: { type: "item", code: "farmcrops:flour-*", quantity: 1 },
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    file: "expandedfoods:recipes/kneading/doughball.json",
+    op: "addmerge", 
+    path: "/3/ingredients/1/inputs/-", 
+    value: { type: "item", code: "farmcrops:flour-*", quantity: 1 },
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+
+  {
+    file: "expandedfoods:recipes/kneading/doughball.json",
+    op: "addmerge", 
+    path: "/2/ingredients/3/inputs/-", 
+    value: { type: "item", code: "farmcrops:foodoilportion-*",  quantity: 10 },
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    file: "expandedfoods:recipes/kneading/doughball.json",
+    op: "addmerge", 
+    path: "/3/ingredients/4/inputs/-", 
+    value: { type: "item", code: "farmcrops:foodoilportion-*",  quantity: 10 },
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+
+
+
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/*-dough",
+    "value": {"farmcrops:flour-oat" : { saturation: 140, foodcategory: "Grain" }},
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/*-dough",
+    "value": {"farmcrops:flour-corn" : { saturation: 140, foodcategory: "Grain" }},
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/*-dough",
+    "value": {"farmcrops:foodoilportion-*" : { saturation: 6.4, "health": 0.1, foodcategory: "Vegetable" }},
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+
+  
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"cornbread": { base: "farmcrops:item/food/grain/cornbread-partbaked" }},
+  "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"cornbread1": { base: "farmcrops:item/food/grain/cornbread-perfect" }},
+  "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"cornbread2": { base: "farmcrops:item/food/grain/cornbread-charred" }},
+  "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"oatbread": { base: "farmcrops:item/food/grain/oatbread" }},
+  "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"oatbread1": { base: "farmcrops:item/food/grain/oatbread1" }},
+  "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"oatbread2": { base: "game:item/food/grain/oatbread2" }},
+  "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+  
+
+]

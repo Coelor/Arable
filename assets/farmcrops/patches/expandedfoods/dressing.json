@@ -1,0 +1,166 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionProps",
+    "value": {
+      "farmcrops:syrup-*": {
+        "saturation": 6.4,
+        "health": 0.1,
+        "foodcategory": "Fruit"
+      }
+    },
+    "file": "expandedfoods:itemtypes/liquid/dressing.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionProps",
+    "value": {
+      "farmcrops:foodoilportion-*": {
+        "saturation": 6.4,
+        "health": 0.1,
+        "foodcategory": "Vegetable"
+      }
+    },
+    "file": "expandedfoods:itemtypes/liquid/dressing.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "farmcrops:syrup-*",
+      "quantity": 10
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/dressing.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "farmcrops:syrup-*",
+      "quantity": 10
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/dressing.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/2/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "farmcrops:syrup-*",
+      "quantity": 10
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/dressing.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/3/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "farmcrops:syrup-*",
+      "quantity": 10
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/dressing.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "farmcrops:foodoilportion-*",
+      "quantity": 10
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/dressing.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "farmcrops:foodoilportion-*",
+      "quantity": 10
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/dressing.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/2/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "farmcrops:foodoilportion-*",
+      "quantity": 10
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/dressing.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/3/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "farmcrops:foodoilportion-*",
+      "quantity": 10
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/dressing.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  }
+]

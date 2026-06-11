@@ -1,0 +1,38 @@
+[  
+	{
+		"ingredientPattern": "K,V",
+		recipeGroup: 1,
+		"ingredients": {
+		  "K": {
+			type: "item",
+			code: "game:knife-*",
+			isTool: true
+		  },
+		  "V": {
+			type: "item",
+			code: "farmcrops:pressedmash-sugarcane",
+		  }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { type: "item", code: "farmcrops:bagasse", quantity: 4 }
+	},
+	{
+		"ingredientPattern": "K,V",
+		recipeGroup: 1,
+		"ingredients": {
+		  "K": {
+			type: "item",
+			code: "game:knife-*",
+			isTool: true
+		  },
+		  "V": {
+			type: "item",
+			code: "farmcrops:pressedmash-sugarbeet",
+		  }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { type: "item", code: "farmcrops:sugarbeetcut", quantity: 4 }
+	}
+]

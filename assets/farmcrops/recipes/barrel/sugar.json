@@ -1,0 +1,27 @@
+[
+	{
+		code: "bagassecompost",
+		sealHours: 240,
+		ingredients: [
+			{ type: "item", code: "farmcrops:bagasse",  quantity: 4 },
+			{ type: "item", code: "game:waterportion",  litres: 1, consumeLitres: 1 },
+		],
+		output: { type: "item", code: "farmcrops:compost-bagasse", quantity: 1 }
+	},
+	{
+		code: "canesugar",
+		sealHours: 240,
+		ingredients: [
+			{ type: "item", code: "farmcrops:syrup-sugarcane",  litres: 1}
+		],
+		output: { type: "item", code: "farmcrops:sugar", quantity: 10 }
+	},
+	{
+		code: "beetsugar",
+		sealHours: 240,
+		ingredients: [
+			{ type: "item", code: "farmcrops:syrup-sugarbeet",  litres: 1}
+		],
+		output: { type: "item", code: "farmcrops:sugar", quantity: 10 }
+	}
+]

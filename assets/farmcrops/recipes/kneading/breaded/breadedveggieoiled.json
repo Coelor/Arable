@@ -1,0 +1,89 @@
+[
+ 
+	{
+		ingredients: [
+			{inputs: [{ type: "item", code: "farmcrops:foodoilportion-*",  quantity: 10 },{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard", quantity: 10}]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-birch-*-raw", name: "vegetable" }]},
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-birch-{vegetable}-oiled", stackSize: 1}
+	 },
+	
+	 {
+		ingredients: [
+			{inputs: [{ type: "item", code: "farmcrops:foodoilportion-*",  quantity: 10 },{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard", quantity: 10}]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-pine-*-raw", name: "vegetable" }]},
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-pine-{vegetable}-oiled", stackSize: 1}
+	 },
+	
+	 {
+		ingredients: [
+			{inputs: [{ type: "item", code: "farmcrops:foodoilportion-*",  quantity: 10 },{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard", quantity: 10}]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-maple-*-raw", name: "vegetable" }]},
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-maple-{vegetable}-oiled", stackSize: 1}
+	 },
+	
+	 {
+		ingredients: [
+			{inputs: [{ type: "item", code: "farmcrops:foodoilportion-*",  quantity: 10 },{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard", quantity: 10}]},
+			{inputs: [{ type: "item", code: "farmcrops:breadedveggie-acorn-*-raw", name: "vegetable" }]},
+		],
+		output: { type: "item", code: "farmcrops:breadedveggie-acorn-{vegetable}-oiled", stackSize: 1}
+	 },
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "farmcrops:foodoilportion-*",  quantity: 10 },{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard", quantity: 10}]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-flax-*-raw", name: "vegetable" }]},
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-flax-{vegetable}-oiled", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "farmcrops:foodoilportion-*",  quantity: 10 },{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard", quantity: 10}]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-rice-*-raw", name: "vegetable" }]},
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-rice-{vegetable}-oiled", stackSize: 1}
+ },
+
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "farmcrops:foodoilportion-*",  quantity: 10 },{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard", quantity: 10}]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-rye-*-raw", name: "vegetable" }]},
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-rye-{vegetable}-oiled", stackSize: 1}
+ },
+ 
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "farmcrops:foodoilportion-*",  quantity: 10 },{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard", quantity: 10}]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-spelt-*-raw", name: "vegetable" }]},
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-spelt-{vegetable}-oiled", stackSize: 1}
+ },
+
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "farmcrops:foodoilportion-*",  quantity: 10 },{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard", quantity: 10}]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-cassava-*-raw", name: "vegetable" }]},
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-cassava-{vegetable}-oiled", stackSize: 1}
+ },
+
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "farmcrops:foodoilportion-*",  quantity: 10 },{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard", quantity: 10}]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-amaranth-*-raw", name: "vegetable" }]},
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-amaranth-{vegetable}-oiled", stackSize: 1}
+ },
+
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "farmcrops:foodoilportion-*",  quantity: 10 },{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard", quantity: 10}]},
+		{inputs: [{ type: "item", code: "farmcrops:breadedveggie-sunflower-*-raw", name: "vegetable" }]},
+	],
+	output: { type: "item", code: "farmcrops:breadedveggie-sunflower-{vegetable}-oiled", stackSize: 1}
+ }
+]
+

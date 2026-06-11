@@ -1,0 +1,582 @@
+[
+    
+
+
+
+   
+
+
+
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:lard",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-flax-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-flax-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:lard",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-rice-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-rice-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:lard",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-rye-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-rye-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:lard",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-spelt-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-spelt-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:lard",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-cassava-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-cassava-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:lard",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-amaranth-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-amaranth-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:lard",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-sunflower-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-sunflower-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+
+
+
+
+
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-flax-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-flax-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-rice-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-rice-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-rye-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-rye-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-spelt-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-spelt-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-cassava-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-cassava-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-amaranth-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-amaranth-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "expandedfoods:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-sunflower-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-sunflower-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "farmcrops:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-flax-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-flax-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "farmcrops:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-rice-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-rice-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "farmcrops:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-rye-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-rye-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "farmcrops:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-spelt-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-spelt-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "farmcrops:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-cassava-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-cassava-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "farmcrops:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-amaranth-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-amaranth-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+    {
+        Ingredients: [
+            {
+                type: "item",
+                code: "farmcrops:foodoilportion-*",
+                quantity: 10
+            },
+            {
+                type: "item",
+                code: "farmcrops:breadedveggie-sunflower-*-raw",
+                quantity: 1,
+                "name": "vegetable"
+            },
+        ],
+        Simmering: {
+            meltingPoint: 150,
+            meltingDuration: 100,
+            smeltedRatio: 1,
+            smeltingType: "bake",
+            smeltedStack: {
+                type: "item",
+                code: "farmcrops:breadedveggie-sunflower-{vegetable}-cooked"
+            },
+            requiresContainer: false
+        }
+    },
+
+    ]

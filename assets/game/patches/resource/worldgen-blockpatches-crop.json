@@ -1,0 +1,261 @@
+[
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of potatos",
+      "blockCodes": [
+        "farmcrops:crop-potato-2",
+        "farmcrops:crop-potato-4",
+        "farmcrops:crop-potato-6"
+      ],
+      "minTemp": 4,
+      "maxTemp": 35,
+      "minRain": 0.18,
+      "maxRain": 0.75,
+      "maxForest": 0.3,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.06
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of yams",
+      "blockCodes": [
+        "farmcrops:crop-yam-2",
+        "farmcrops:crop-yam-4",
+        "farmcrops:crop-yam-6"
+      ],
+      "minTemp": 23,
+      "maxTemp": 35,
+      "minRain": 0.16,
+      "maxRain": 0.7,
+      "maxForest": 0.2,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.06
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of cauliflower",
+      "blockCodes": [
+        "farmcrops:crop-cauliflower-4",
+        "farmcrops:crop-cauliflower-6",
+        "farmcrops:crop-cauliflower-9"
+      ],
+      "minTemp": 7,
+      "maxTemp": 29,
+      "minRain": 0.16,
+      "maxRain": 0.7,
+      "maxForest": 0.2,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.04
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of corn",
+      "blockCodes": [
+        "farmcrops:crop-corn-3",
+        "farmcrops:crop-corn-3",
+        "farmcrops:crop-corn-4",
+        "farmcrops:crop-corn-5",
+        "farmcrops:crop-corn-6",
+        "farmcrops:crop-corn-9"
+      ],
+      "minTemp": 3,
+      "maxTemp": 32,
+      "minRain": 0.1,
+      "maxRain": 0.7,
+      "maxForest": 0.02,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.08
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of beet",
+      "blockCodes": [
+        "farmcrops:crop-beet-2",
+        "farmcrops:crop-beet-3",
+        "farmcrops:crop-beet-5"
+      ],
+      "minTemp": 10,
+      "maxTemp": 26,
+      "minRain": 0.45,
+      "maxRain": 0.85,
+      "maxForest": 0.34,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.07
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of eggplant",
+      "blockCodes": [
+        "farmcrops:crop-eggplant-2",
+        "farmcrops:crop-eggplant-3",
+        "farmcrops:crop-eggplant-6"
+      ],
+      "minTemp": 25,
+      "maxTemp": 36,
+      "minRain": 0.45,
+      "maxRain": 0.85,
+      "maxForest": 0.34,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.07
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of jalapeño",
+      "blockCodes": [
+        "farmcrops:crop-jalapeno-3",
+        "farmcrops:crop-jalapeno-3",
+        "farmcrops:crop-jalapeno-4",
+        "farmcrops:crop-jalapeno-5",
+        "farmcrops:crop-jalapeno-6"
+      ],
+      "minTemp": 8,
+      "maxTemp": 25,
+      "minRain": 0.15,
+      "maxRain": 0.75,
+      "maxForest": 0.02,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.08
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of bellpepper",
+      "blockCodes": [
+        "farmcrops:crop-pepperbell-8",
+        "farmcrops:crop-pepperbell-9",
+        "farmcrops:crop-pepperbell-10",
+        "farmcrops:crop-pepperbell-11"
+      ],
+      "minTemp": 8,
+      "maxTemp": 25,
+      "minRain": 0.15,
+      "maxRain": 0.75,
+      "maxForest": 0.02,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.08
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  },
+    {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of sugarcane",
+      "blockCodes": [
+        "farmcrops:crop-sugarcane-4",
+        "farmcrops:crop-sugarcane-6",
+        "farmcrops:crop-sugarcane-8"
+      ],
+      "minTemp": 23,
+      "maxTemp": 35,
+      "minRain": 0.16,
+      "maxRain": 0.7,
+      "maxForest": 0.2,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.06
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  },
+    {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of sugarbeets",
+      "blockCodes": [
+        "farmcrops:crop-sugarbeet-2",
+        "farmcrops:crop-sugarbeet-3",
+        "farmcrops:crop-sugarbeet-5"
+      ],
+      "minTemp": 10,
+      "maxTemp": 26,
+      "minRain": 0.45,
+      "maxRain": 0.85,
+      "maxForest": 0.34,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.07
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  },
+    {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of oat",
+      "blockCodes": [
+        "farmcrops:crop-oat-2",
+        "farmcrops:crop-oat-3",
+        "farmcrops:crop-oat-5"
+      ],
+      "minTemp": 10,
+      "maxTemp": 26,
+      "minRain": 0.45,
+      "maxRain": 0.85,
+      "maxForest": 0.34,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.07
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  }
+]

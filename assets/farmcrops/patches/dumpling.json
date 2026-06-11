@@ -1,0 +1,123 @@
+[
+  {
+    "file": "farmcrops:recipes/kneading/dumpling.json",
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "file": "farmcrops:recipes/kneading/dumpling.json",
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/*-raw",
+    "value": {"farmcrops:flour-oat": {"saturation": 165, "foodcategory": "Grain"}},
+    "file": "expandedfoods:itemtypes/food/mixing/dumpling.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/*-raw",
+    "value": {"farmcrops:flour-corn": {"saturation": 150, "foodcategory": "Grain"}},
+    "file": "expandedfoods:itemtypes/food/mixing/dumpling.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+
+ {
+    "op": "addmerge",
+    "path": "/attributes/renderIngredientsByType/*",
+    "value": {"farmcrops:flour-*": {   
+        "shape": "expandedfoods:shapes/item/food/dumpling.json", 
+        "name": "flour", 
+        "textureMap": { "dough": "{flour}{type}" } 
+      }
+	  },
+    "file": "expandedfoods:itemtypes/food/mixing/dumpling.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+  
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"oatraw": {base: "farmcrops:item/food/dumpling/oat-raw" }},
+  "file": "expandedfoods:itemtypes/food/mixing/dumpling.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"oatpartbaked": {base: "farmcrops:item/food/dumpling/oat-partbaked" }},
+  "file": "expandedfoods:itemtypes/food/mixing/dumpling.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"oatcooked": {base: "farmcrops:item/food/dumpling/oat-perfect" }},
+  "file": "expandedfoods:itemtypes/food/mixing/dumpling.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"oatcharred": {base: "farmcrops:item/food/dumpling/oat-charred" }},
+  "file": "expandedfoods:itemtypes/food/mixing/dumpling.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"cornraw": {base: "farmcrops:item/food/dumpling/corn-raw" }},
+  "file": "expandedfoods:itemtypes/food/mixing/dumpling.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"cornpartbaked": {base: "farmcrops:item/food/dumpling/corn-partbaked" }},
+  "file": "expandedfoods:itemtypes/food/mixing/dumpling.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"corncooked": {base: "farmcrops:item/food/dumpling/corn-perfect" }},
+  "file": "expandedfoods:itemtypes/food/mixing/dumpling.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+{
+  "op": "addmerge",
+  "path": "/textures",
+  "value": {"corncharred": {base: "farmcrops:item/food/dumpling/corn-charred" }},
+  "file": "expandedfoods:itemtypes/food/mixing/dumpling.json",
+  "side": "server",
+  dependsOn: [{ "modid": "expandedfoods" }]
+},
+
+]
