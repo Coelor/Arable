@@ -1,10 +1,10 @@
 {
   "type": "content",
-  "name": "Farm Crops - FarmToTable Revival",
-  "version": "1.1.1",
+  "name": "Arable - FarmToTable Revival Revival",
+  "version": "1.1.2",
   "description": "Adds more crops to Vintage Story along with uses for them.",
-  "website": "https://github.com/SeanQuinn96/Farm-To-Table",
-  "modid": "farmcrops",
+  "website": "https://github.com/Coelor/Arable",
+  "modid": "arable",
   "authors": [
     "Coelor"
   ],
