@@ -5,7 +5,7 @@
   "variantgroups": [
     {
       "code": "vegetable",
-      "states": [ "beet", "cauliflower", "corn", "eggplant", "jalapeno", "oat", "pepperbell", "potato", "sugarbeet", "sugarcane", "yam" ]
+      "states": [ "cauliflower", "corn", "eggplant", "jalapeno", "oat", "pepperbell", "potato", "sugarbeet", "sugarcane", "yam" ]
     },
     {
       "code": "stage",
@@ -13,16 +13,6 @@
     }
   ],
   "skipVariants": [
-    "crop-beet-6",
-    "crop-beet-7",
-    "crop-beet-8",
-    "crop-beet-9",
-    "crop-beet-10",
-    "crop-beet-11",
-    "crop-beet-12",
-    "crop-beet-13",
-    "crop-beet-14",
-    "crop-beet-15",
     "crop-cauliflower-13",
     "crop-cauliflower-14",
     "crop-cauliflower-15",
@@ -130,7 +120,6 @@
         "*-eggplant-6": true,
         "*-corn-9": true,
         "*-cauliflower-11": true,
-        "*-beet-5": true,
 				"*": false
 			}
 		}
@@ -153,36 +142,6 @@
   },
   "rainPermeable": false,
   "dropsByType": {
-    "*-beet-4": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-beet",
-        "quantity": { "avg": 0.99 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:vegetable-beet",
-        "quantity": {
-          "avg": 2,
-          "var": 1
-        }
-      }
-    ],
-    "*-beet-5": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-beet",
-        "quantity": { "avg": 1.1 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:vegetable-beet",
-        "quantity": {
-          "avg": 6,
-          "var": 1
-        }
-      }
-    ],
     "*cauliflower-11": [
       {
         "type": "item",
@@ -423,14 +382,6 @@
 		]
   },
   "cropPropsByType": {
-    "*-beet*": {
-      "requiredNutrient": "P",
-      "nutrientConsumption": 31,
-      "growthStages": 5,
-      "totalGrowthDays": 6,
-      "coldDamageBelow": -5,
-      "heatDamageAbove": 27
-    },
     "*cauliflower*": {
       "requiredNutrient": "N",
       "nutrientConsumption": 40,
