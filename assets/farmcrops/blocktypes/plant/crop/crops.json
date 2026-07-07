@@ -13,9 +13,6 @@
     }
   ],
   "skipVariants": [
-    "crop-cauliflower-13",
-    "crop-cauliflower-14",
-    "crop-cauliflower-15",
     "crop-corn-10",
     "crop-corn-11",
     "crop-corn-12",
@@ -58,16 +55,6 @@
     "crop-potato-13",
     "crop-potato-14",
     "crop-potato-15",
-    "crop-sugarbeet-6",
-    "crop-sugarbeet-7",
-    "crop-sugarbeet-8",
-    "crop-sugarbeet-9",
-    "crop-sugarbeet-10",
-    "crop-sugarbeet-11",
-    "crop-sugarbeet-12",
-    "crop-sugarbeet-13",
-    "crop-sugarbeet-14",
-    "crop-sugarbeet-15",
     "crop-sugarcane-9",
     "crop-sugarcane-10",
     "crop-sugarcane-11",
@@ -111,7 +98,6 @@
     "handbook": {
 			"includeByType": {
 				"*-yam-9": true,
-        "*-sugarbeet-5": true,
         "*-sugarcane-8": true,
         "*-potato-7": true,
         "*-pepperbell-11": true,
@@ -119,7 +105,6 @@
         "*-jalapeno-8": true,
         "*-eggplant-6": true,
         "*-corn-9": true,
-        "*-cauliflower-11": true,
 				"*": false
 			}
 		}
@@ -142,36 +127,6 @@
   },
   "rainPermeable": false,
   "dropsByType": {
-    "*cauliflower-11": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-cauliflower",
-        "quantity": { "avg": 0.99 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:vegetable-cauliflower",
-        "quantity": {
-          "avg": 0.85,
-          "var": 0.1
-        }
-      }
-    ],
-    "*cauliflower-12": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-cauliflower",
-        "quantity": { "avg": 1.1 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:vegetable-cauliflower",
-        "quantity": {
-          "avg": 2,
-          "var": 0
-        }
-      }
-    ],
     "*corn-9": [
       {
         "type": "item",
@@ -299,36 +254,6 @@
         }
       }
     ],
-    "*sugarbeet-4": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-sugarbeet",
-        "quantity": { "avg": 0.99 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:resourcecrop-sugarbeet",
-        "quantity": {
-          "avg": 2,
-          "var": 1
-        }
-      }
-    ],
-    "*sugarbeet-5": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-sugarbeet",
-        "quantity": { "avg": 1.1 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:resourcecrop-sugarbeet",
-        "quantity": {
-          "avg": 6,
-          "var": 1
-        }
-      }
-    ],
     "*sugarcane-8": [
       {
         "type": "item",
@@ -382,14 +307,6 @@
 		]
   },
   "cropPropsByType": {
-    "*cauliflower*": {
-      "requiredNutrient": "N",
-      "nutrientConsumption": 40,
-      "growthStages": 12,
-      "totalGrowthDays": 13,
-      "coldDamageBelow": -10,
-      "heatDamageAbove": 25
-    },
     "*corn*": {
       "requiredNutrient": "N",
       "nutrientConsumption": 35,
@@ -437,14 +354,6 @@
       "totalGrowthDays": 8,
       "coldDamageBelow": 4,
       "heatDamageAbove": 35
-    },
-    "*sugarbeet*": {
-      "requiredNutrient": "P",
-      "nutrientConsumption": 31,
-      "growthStages": 5,
-      "totalGrowthDays": 6,
-      "coldDamageBelow": -2,
-      "heatDamageAbove": 30
     },
     "*sugarcane*": {
       "requiredNutrient": "N",

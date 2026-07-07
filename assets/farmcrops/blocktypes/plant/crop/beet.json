@@ -31,14 +31,13 @@
         ],
         "plants": [
             "*"
+        ],
+        "farmcrops": [
+            "*"
         ]
     },
     "renderpass": "OpaqueNoCull",
-    "shapeByType": {
-        "*": {
-            "base": "farmcrops:block/plant/crop/{vegetable}/stage{stage}"
-        }
-    },
+    "shape": { "base": "farmcrops:block/plant/crop/beet/stage{stage}"},
     "blockmaterial": "Plant",
     "attributes": {
         "foodTags": [
@@ -74,7 +73,7 @@
     },
     "rainPermeable": false,
     "dropsByType": {
-        "*-beet-4": [
+        "*-4": [
             {
                 "type": "item",
                 "code": "farmcrops:seeds-beet",
@@ -91,7 +90,7 @@
                 }
             }
         ],
-        "*-beet-5": [
+        "*-5": [
             {
                 "type": "item",
                 "code": "farmcrops:seeds-beet",
