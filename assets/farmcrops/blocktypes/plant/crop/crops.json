@@ -5,7 +5,7 @@
   "variantgroups": [
     {
       "code": "vegetable",
-      "states": [ "cauliflower", "corn", "eggplant", "jalapeno", "oat", "pepperbell", "potato", "sugarbeet", "sugarcane", "yam" ]
+      "states": [ "eggplant", "jalapeno", "pepperbell", "potato", "sugarcane", "yam" ]
     },
     {
       "code": "stage",
@@ -13,12 +13,6 @@
     }
   ],
   "skipVariants": [
-    "crop-corn-10",
-    "crop-corn-11",
-    "crop-corn-12",
-    "crop-corn-13",
-    "crop-corn-14",
-    "crop-corn-15",
     "crop-eggplant-7",
     "crop-eggplant-8",
     "crop-eggplant-9",
@@ -35,14 +29,6 @@
     "crop-jalapeno-13",
     "crop-jalapeno-14",
     "crop-jalapeno-15",
-    "crop-oat-8",
-    "crop-oat-9",
-    "crop-oat-10",
-    "crop-oat-11",
-    "crop-oat-12",
-    "crop-oat-13",
-    "crop-oat-14",
-    "crop-oat-15",
     "crop-pepperbell-12",
     "crop-pepperbell-13",
     "crop-pepperbell-14",
@@ -101,10 +87,8 @@
         "*-sugarcane-8": true,
         "*-potato-7": true,
         "*-pepperbell-11": true,
-        "*-oat-7": true,
         "*-jalapeno-8": true,
         "*-eggplant-6": true,
-        "*-corn-9": true,
 				"*": false
 			}
 		}
@@ -127,21 +111,6 @@
   },
   "rainPermeable": false,
   "dropsByType": {
-    "*corn-9": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-corn",
-        "quantity": { "avg": 1.1 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:vegetable-corn",
-        "quantity": {
-          "avg": 11,
-          "var": 0
-        }
-      }
-    ],
     "*eggplant-5": [
       {
         "type": "item",
@@ -184,21 +153,6 @@
         "quantity": {
           "avg": 6,
           "var": 1
-        }
-      }
-    ],
-    "*oat-7": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-oat",
-        "quantity": { "avg": 1.2 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:grain-oat",
-        "quantity": {
-          "avg": 12,
-          "var": 2
         }
       }
     ],
@@ -307,14 +261,6 @@
 		]
   },
   "cropPropsByType": {
-    "*corn*": {
-      "requiredNutrient": "N",
-      "nutrientConsumption": 35,
-      "growthStages": 9,
-      "totalGrowthDays": 10,
-      "coldDamageBelow": -2,
-      "heatDamageAbove": 35
-    },
     "*eggplant*": {
       "requiredNutrient": "P",
       "nutrientConsumption": 32,
@@ -330,14 +276,6 @@
       "totalGrowthDays": 8,
       "coldDamageBelow": 5,
       "heatDamageAbove": 35
-    },
-    "*oat*": {
-      "requiredNutrient": "N",
-      "nutrientConsumption": 40,
-      "growthStages": 7,
-      "coldDamageBelow": -20,
-      "heatDamageAbove": 21,
-      "totalGrowthMonths": 2.0
     },
     "*pepperbell*": {
       "requiredNutrient": "N",
