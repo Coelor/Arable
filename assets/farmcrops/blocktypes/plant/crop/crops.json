@@ -5,7 +5,7 @@
   "variantgroups": [
     {
       "code": "vegetable",
-      "states": [ "eggplant", "jalapeno", "pepperbell", "potato", "sugarcane", "yam" ]
+      "states": [ "pepperbell", "sugarcane" ]
     },
     {
       "code": "stage",

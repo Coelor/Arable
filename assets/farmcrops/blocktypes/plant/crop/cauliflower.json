@@ -41,6 +41,7 @@
     "shape": {
         "base": "farmcrops:block/plant/crop/cauliflower/stage{stage}"
     },
+    "randomizeRotations": true,
     "blockmaterial": "Plant",
     "attributes": {
         "butterflyFeedByType": {

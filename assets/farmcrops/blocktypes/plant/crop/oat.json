@@ -38,7 +38,7 @@
     },
     "rainPermeable": false,
     "dropsByType": {
-        "*oat-7": [
+        "*-7": [
             {
                 "type": "item",
                 "code": "farmcrops:seeds-oat",
