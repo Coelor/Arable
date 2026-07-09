@@ -9,56 +9,13 @@
     },
     {
       "code": "stage",
-      "states": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ]
+      "states": [ "1", "2", "3", "4", "5", "6", "7", "8" ]
     }
-  ],
-  "skipVariants": [
-    "crop-eggplant-7",
-    "crop-eggplant-8",
-    "crop-eggplant-9",
-    "crop-eggplant-10",
-    "crop-eggplant-11",
-    "crop-eggplant-12",
-    "crop-eggplant-13",
-    "crop-eggplant-14",
-    "crop-eggplant-15",
-    "crop-jalapeno-9",
-    "crop-jalapeno-10",
-    "crop-jalapeno-11",
-    "crop-jalapeno-12",
-    "crop-jalapeno-13",
-    "crop-jalapeno-14",
-    "crop-jalapeno-15",
-    "crop-pepperbell-12",
-    "crop-pepperbell-13",
-    "crop-pepperbell-14",
-    "crop-pepperbell-15",
-    "crop-potato-8",
-    "crop-potato-9",
-    "crop-potato-10",
-    "crop-potato-11",
-    "crop-potato-12",
-    "crop-potato-13",
-    "crop-potato-14",
-    "crop-potato-15",
-    "crop-sugarcane-9",
-    "crop-sugarcane-10",
-    "crop-sugarcane-11",
-    "crop-sugarcane-12",
-    "crop-sugarcane-13",
-    "crop-sugarcane-14",
-    "crop-sugarcane-15",
-    "crop-yam-10",
-    "crop-yam-11",
-    "crop-yam-12",
-    "crop-yam-13",
-    "crop-yam-14",
-    "crop-yam-15"
   ],
   "creativeinventory": {
     "general": [ "*" ],
     "farmcrops": [ "*" ],
-     "flora": ["*"]
+    "plants": ["*"]
   },
   "renderpass": "OpaqueNoCull",
   "shapeByType": {
@@ -73,25 +30,12 @@
   },
   "blockmaterial": "Plant",
   "attributes": {
-    "butterflyFeedByType": {
-      "*": true
-    },
-    "beeFeedByType": {
-      "*": true
-    },
+    "foodTags": [ "nibbleCrop" ],
+    "butterflyFeed": true,
+    "beeFeed": true,
     "sitHeight": 0.3,
     "tickGrowthProbability": 0.05,
-    "handbook": {
-			"includeByType": {
-				"*-yam-9": true,
-        "*-sugarcane-8": true,
-        "*-potato-7": true,
-        "*-pepperbell-11": true,
-        "*-jalapeno-8": true,
-        "*-eggplant-6": true,
-				"*": false
-			}
-		}
+    "handbook": { "include": true }
   },
   "sideopaque": {
     "all": false
@@ -102,60 +46,13 @@
   "replaceable": 3000,
   "lightAbsorption": 0,
   "resistance": 0.5,
-  "soundsByType": {
-    "*": {
-      "place": "block/plant",
-      "break": "block/plant",
-      "hit": "block/plant"
-    }
+  "sounds": {
+    "place": "block/plant",
+    "break": "block/plant",
+    "hit": "block/plant"
   },
   "rainPermeable": false,
   "dropsByType": {
-    "*eggplant-5": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-eggplant",
-        "quantity": { "avg": 0.99 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:vegetable-eggplant",
-        "quantity": {
-          "avg": 2,
-          "var": 1
-        }
-      }
-    ],
-    "*eggplant-6": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-eggplant",
-        "quantity": { "avg": 1.1 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:vegetable-eggplant",
-        "quantity": {
-          "avg": 6,
-          "var": 1
-        }
-      }
-    ],
-    "*jalapeno-8": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-jalapeno",
-        "quantity": { "avg": 1.1 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:vegetable-jalapeno",
-        "quantity": {
-          "avg": 6,
-          "var": 1
-        }
-      }
-    ],
     "*pepperbell-10": [
       {
         "type": "item",
@@ -178,36 +75,6 @@
         }
       }
     ],
-    "*potato-6": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-potato",
-        "quantity": { "avg": 0.99 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:vegetable-potato",
-        "quantity": {
-          "avg": 1.5,
-          "var": 0.5
-        }
-      }
-    ],
-    "*potato-7": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-potato",
-        "quantity": { "avg": 1.1 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:vegetable-potato",
-        "quantity": {
-          "avg": 6,
-          "var": 1
-        }
-      }
-    ],
     "*sugarcane-8": [
       {
         "type": "item",
@@ -220,63 +87,17 @@
         "quantity": { "avg": 8 }
       }
     ],
-    "*yam-8": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-yam",
-        "quantity": { "avg": 0.99 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:vegetable-yam",
-        "quantity": {
-          "avg": 1.5,
-          "var": 0.5
-        }
-      }
-    ],
-    "*yam-9": [
-      {
-        "type": "item",
-        "code": "farmcrops:seeds-yam",
-        "quantity": { "avg": 1.1 }
-      },
-      {
-        "type": "item",
-        "code": "farmcrops:vegetable-yam",
-        "quantity": {
-          "avg": 6,
-          "var": 1
-        }
-      }
-    ],
     "*": [
 			{
         "type": "item",
         "code": "farmcrops:seeds-{vegetable}",
         "quantity": {
-           "avg": 0.7 
-           }  
+          "avg": 0.7 
+          }  
         }
 		]
   },
   "cropPropsByType": {
-    "*eggplant*": {
-      "requiredNutrient": "P",
-      "nutrientConsumption": 32,
-      "growthStages": 6,
-      "totalGrowthDays": 10,
-      "coldDamageBelow": 15,
-      "heatDamageAbove": 35
-    },
-    "*jalapeno*": {
-      "requiredNutrient": "N",
-      "nutrientConsumption": 20,
-      "growthStages": 8,
-      "totalGrowthDays": 8,
-      "coldDamageBelow": 5,
-      "heatDamageAbove": 35
-    },
     "*pepperbell*": {
       "requiredNutrient": "N",
       "nutrientConsumption": 20,
@@ -285,14 +106,6 @@
       "heatDamageAbove": 35,
       "coldDamageBelow": 5
     },
-    "*potato*": {
-      "requiredNutrient": "N",
-      "nutrientConsumption": 35,
-      "growthStages": 7,
-      "totalGrowthDays": 8,
-      "coldDamageBelow": 4,
-      "heatDamageAbove": 35
-    },
     "*sugarcane*": {
       "requiredNutrient": "N",
       "nutrientConsumption": 35,
@@ -300,14 +113,6 @@
       "totalGrowthDays": 10,
       "coldDamageBelow": 10,
       "heatDamageAbove": 45
-    },
-    "*yam*": {
-      "requiredNutrient": "N",
-      "nutrientConsumption": 30,
-      "growthStages": 9,
-      "totalGrowthDays": 8,
-      "coldDamageBelow": 15,
-      "heatDamageAbove": 37
     }
   },
   "collisionbox": null,
@@ -323,5 +128,6 @@
   "combustibleProps": {
     "burnTemperature": 600,
     "burnDuration": 10
-  }
+  },
+  "frostable": true
 }

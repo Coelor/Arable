@@ -23,7 +23,7 @@
 	"creativeinventory": {
 		"general": [ "*" ],
 		"items": [ "*" ],
-		 "farmcrops": ["*"]
+		"farmcrops": ["*"]
 	},
 	"attributesByType": {
 		"*-partbaked": {
