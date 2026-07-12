@@ -32,8 +32,7 @@
 				},
 				"cbScaleYByLayer": 0.2
 			}
-		},
-		{ "name": "Unplaceable" }
+		}
 	],
 	"shape": {
 		base: "farmcrops:item/crop/vegetable/sugarcane"

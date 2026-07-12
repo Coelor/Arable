@@ -17,7 +17,7 @@
   "attributes": {
     "foodTags": ["nibbleCrop"],
     "butterflyFeed": true,
-    "beeFeedByType": true,
+    "beeFeed": true,
     "sitHeight": 0.3,
     "tickGrowthProbability": 0.05,
     "handbook": { "include": true }

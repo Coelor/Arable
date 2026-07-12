@@ -44,12 +44,8 @@
     "randomizeRotations": true,
     "blockmaterial": "Plant",
     "attributes": {
-        "butterflyFeedByType": {
-            "*": true
-        },
-        "beeFeedByType": {
-            "*": true
-        },
+        "butterflyFeed": true,
+        "beeFeed": true,
         "sitHeight": 0.3,
         "tickGrowthProbability": 0.05,
         "handbook": {
